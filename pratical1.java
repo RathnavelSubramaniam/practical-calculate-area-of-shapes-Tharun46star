@@ -76,24 +76,25 @@ public double calculateArea()
 {
     return sideLength*sideLength;
 
-}
+    }
 
-}
-public class practical1
-{
-public static void main(String[] args)
-{
+    }
+    public class practical1
+    {
+    public static void main(String[] args)
+    {
 
-Point p1 = new Point(0, 0);
-Point p2 = new Point(4, 0);
-Point p3 = new Point(4, 3);
-Point p4 = new Point(0, 3);
-Trapezoid trapezoid = new Trapezoid(p1, p2, p3, p4);
-Rectangle rectangle = new Rectangle(p1, p2, p3, p4);
-Square square = new Square(p1, 3);
+    Point p1 = new Point(0, 0);
+    Point p2 = new Point(4, 0);
+    Point p3 = new Point(4, 3);
+    Point p4 = new Point(0, 3);
+    Trapezoid trapezoid = new Trapezoid(p1, p2, p3, p4);
+    Rectangle rectangle = new Rectangle(p1, p2, p3, p4);
+    Square square = new Square(p1, 3);
 
-System.out.println("Area of trapezoid=" + trapezoid.calculateArea());
-System.out.println("Area of rectangle=" + rectangle.calculateArea());
-System.out.println("Area of square=" + square.calculateArea());
-}
-}
+    System.out.println("Area of trapezoid=" + trapezoid.calculateArea());
+    System.out.println("Area of rectangle=" + rectangle.calculateArea());
+    System.out.println("Area of square=" + square.calculateArea());
+    }
+    }
+
