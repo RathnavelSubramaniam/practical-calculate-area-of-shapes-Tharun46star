@@ -97,4 +97,3 @@ public double calculateArea()
     System.out.println("Area of square=" + square.calculateArea());
     }
     }
-
